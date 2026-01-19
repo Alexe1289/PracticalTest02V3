@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import ro.pub.cs.systems.pdsd.practicaltest02v3.R
 import ro.pub.cs.systems.pdsd.practicaltest02v3.general.Constants
 
-class PracticalTest02MainActivity : AppCompatActivity() {
+class PracticalTest02MainActivityv3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_practical_test02_main)

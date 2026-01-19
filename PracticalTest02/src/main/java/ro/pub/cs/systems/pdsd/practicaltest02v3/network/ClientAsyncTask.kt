@@ -46,6 +46,9 @@ class ClientAsyncTask(private val serverMessageTextView: TextView, private val t
                 while (bufferedReader.readLine().also { currentLine = it } != null) {
                     val line = currentLine
                     // Update UI on main thread
+                    if (line != null) {
+                        Log.d("CLIENT", line)
+                    }
                     mainHandler.post { serverMessageTextView.append("$line\n") }
                 }
             } catch (ioException: IOException) {

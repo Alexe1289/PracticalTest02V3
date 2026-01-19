@@ -66,15 +66,6 @@
         android:layout_columnSpan="2"
         android:layout_gravity="center_horizontal"
         android:text="@string/display_message" />
-    <Button
-        android:id="@+id/display_message_button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_row="4"
-        android:layout_column="0"
-        android:layout_columnSpan="2"
-        android:layout_gravity="center_horizontal"
-        android:text="@string/display_message2" />
 
     <EditText
         android:id="@+id/query"

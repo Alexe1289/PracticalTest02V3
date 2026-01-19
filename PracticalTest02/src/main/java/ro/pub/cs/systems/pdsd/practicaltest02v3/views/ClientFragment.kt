@@ -19,7 +19,6 @@ class ClientFragment : Fragment() {
     private var serverPortEditText: EditText? = null
     private var serverMessageTextView: TextView? = null
     private var displayMessageButton: Button? = null
-    private var displayMessageButton2: Button? = null
     private var enterQuery: EditText? = null
 
 
@@ -60,8 +59,6 @@ class ClientFragment : Fragment() {
         displayMessageButton = view.findViewById(R.id.display_message_button2)
         displayMessageButton!!.setOnClickListener(buttonClickListener)
         serverMessageTextView = view.findViewById(R.id.server_message_text_view)
-        displayMessageButton2 = view.findViewById(R.id.display_message_button3)
-        displayMessageButton2!!.setOnClickListener(buttonClickListener2)
         enterQuery = view.findViewById(R.id.query)
         return view
     }

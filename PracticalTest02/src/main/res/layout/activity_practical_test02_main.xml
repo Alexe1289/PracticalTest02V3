@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ro.pub.cs.systems.pdsd.lab06.practicaltest02v2.views.PracticalTest02MainActivity">
+
+    <FrameLayout
+        android:id="@+id/server_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="274dp"
+        android:layout_weight="3" />
+
+    <FrameLayout
+        android:id="@+id/client_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="27dp" />
+    </FrameLayout>
+
+</LinearLayout>

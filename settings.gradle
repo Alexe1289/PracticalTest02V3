@@ -1,0 +1,35 @@
+pluginManagement {
+    repositories {
+        google {
+            content {
+                includeGroupByRegex("com\\.android.*")
+                includeGroupByRegex("com\\.google.*")
+                includeGroupByRegex("androidx.*")
+            }
+        }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+    plugins {
+        id("org.jetbrains.kotlin.plugin.compose") version "2.1.0"
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "PracticalTest02v2"
+
+// Java Solutions
+
+// Kotlin Solutions
+include(':PracticalTest02')
+
+// Java Skeletons (Lab Tasks)
+
+// Kotlin Skeletons (Lab Tasks)
